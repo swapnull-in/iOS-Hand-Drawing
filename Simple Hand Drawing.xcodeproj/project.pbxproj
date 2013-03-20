@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55656BFE16F960B4005838EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55656BFD16F960B4005838EF /* UIKit.framework */; };
+		55656C0016F960B4005838EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55656BFF16F960B4005838EF /* Foundation.framework */; };
+		55656C0216F960B4005838EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55656C0116F960B4005838EF /* CoreGraphics.framework */; };
+		55656C0816F960B4005838EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55656C0616F960B4005838EF /* InfoPlist.strings */; };
+		55656C0A16F960B4005838EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55656C0916F960B4005838EF /* main.m */; };
+		55656C0E16F960B4005838EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55656C0D16F960B4005838EF /* AppDelegate.m */; };
+		55656C1116F960B4005838EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55656C1016F960B4005838EF /* ViewController.m */; };
+		55656C1416F960B4005838EF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55656C1216F960B4005838EF /* ViewController.xib */; };
+		55656C2016F9625E005838EF /* BezierInterpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55656C1F16F9625E005838EF /* BezierInterpView.m */; };
+		55656C2316F967A5005838EF /* eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 55656C2116F967A5005838EF /* eraser.png */; };
+		55656C2416F967A5005838EF /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 55656C2216F967A5005838EF /* pencil.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55656BF916F960B4005838EF /* Simple Hand Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Hand Drawing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55656BFD16F960B4005838EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55656BFF16F960B4005838EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55656C0116F960B4005838EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55656C0516F960B4005838EF /* Simple Hand Drawing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Hand Drawing-Info.plist"; sourceTree = "<group>"; };
+		55656C0716F960B4005838EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55656C0916F960B4005838EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55656C0B16F960B4005838EF /* Simple Hand Drawing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple Hand Drawing-Prefix.pch"; sourceTree = "<group>"; };
+		55656C0C16F960B4005838EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55656C0D16F960B4005838EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55656C0F16F960B4005838EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55656C1016F960B4005838EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55656C1316F960B4005838EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		55656C1E16F9625E005838EF /* BezierInterpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierInterpView.h; sourceTree = "<group>"; };
+		55656C1F16F9625E005838EF /* BezierInterpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierInterpView.m; sourceTree = "<group>"; };
+		55656C2116F967A5005838EF /* eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eraser.png; sourceTree = "<group>"; };
+		55656C2216F967A5005838EF /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55656BF616F960B4005838EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55656BFE16F960B4005838EF /* UIKit.framework in Frameworks */,
+				55656C0016F960B4005838EF /* Foundation.framework in Frameworks */,
+				55656C0216F960B4005838EF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55656BEE16F960B4005838EF = {
+			isa = PBXGroup;
+			children = (
+				55656C0316F960B4005838EF /* Simple Hand Drawing */,
+				55656BFC16F960B4005838EF /* Frameworks */,
+				55656BFA16F960B4005838EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55656BFA16F960B4005838EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55656BF916F960B4005838EF /* Simple Hand Drawing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55656BFC16F960B4005838EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55656BFD16F960B4005838EF /* UIKit.framework */,
+				55656BFF16F960B4005838EF /* Foundation.framework */,
+				55656C0116F960B4005838EF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55656C0316F960B4005838EF /* Simple Hand Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				55656C1D16F9623B005838EF /* Drawing View */,
+				55656C0C16F960B4005838EF /* AppDelegate.h */,
+				55656C0D16F960B4005838EF /* AppDelegate.m */,
+				55656C0F16F960B4005838EF /* ViewController.h */,
+				55656C1016F960B4005838EF /* ViewController.m */,
+				55656C1216F960B4005838EF /* ViewController.xib */,
+				55656C0416F960B4005838EF /* Supporting Files */,
+			);
+			path = "Simple Hand Drawing";
+			sourceTree = "<group>";
+		};
+		55656C0416F960B4005838EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55656C2116F967A5005838EF /* eraser.png */,
+				55656C2216F967A5005838EF /* pencil.png */,
+				55656C0516F960B4005838EF /* Simple Hand Drawing-Info.plist */,
+				55656C0616F960B4005838EF /* InfoPlist.strings */,
+				55656C0916F960B4005838EF /* main.m */,
+				55656C0B16F960B4005838EF /* Simple Hand Drawing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55656C1D16F9623B005838EF /* Drawing View */ = {
+			isa = PBXGroup;
+			children = (
+				55656C1E16F9625E005838EF /* BezierInterpView.h */,
+				55656C1F16F9625E005838EF /* BezierInterpView.m */,
+			);
+			name = "Drawing View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55656BF816F960B4005838EF /* Simple Hand Drawing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55656C1716F960B4005838EF /* Build configuration list for PBXNativeTarget "Simple Hand Drawing" */;
+			buildPhases = (
+				55656BF516F960B4005838EF /* Sources */,
+				55656BF616F960B4005838EF /* Frameworks */,
+				55656BF716F960B4005838EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Hand Drawing";
+			productName = "Simple Hand Drawing";
+			productReference = 55656BF916F960B4005838EF /* Simple Hand Drawing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55656BF016F960B4005838EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 55656BF316F960B4005838EF /* Build configuration list for PBXProject "Simple Hand Drawing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55656BEE16F960B4005838EF;
+			productRefGroup = 55656BFA16F960B4005838EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55656BF816F960B4005838EF /* Simple Hand Drawing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55656BF716F960B4005838EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55656C0816F960B4005838EF /* InfoPlist.strings in Resources */,
+				55656C1416F960B4005838EF /* ViewController.xib in Resources */,
+				55656C2316F967A5005838EF /* eraser.png in Resources */,
+				55656C2416F967A5005838EF /* pencil.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55656BF516F960B4005838EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55656C0A16F960B4005838EF /* main.m in Sources */,
+				55656C0E16F960B4005838EF /* AppDelegate.m in Sources */,
+				55656C1116F960B4005838EF /* ViewController.m in Sources */,
+				55656C2016F9625E005838EF /* BezierInterpView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55656C0616F960B4005838EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55656C0716F960B4005838EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55656C1216F960B4005838EF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55656C1316F960B4005838EF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55656C1516F960B4005838EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		55656C1616F960B4005838EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55656C1816F960B4005838EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Hand Drawing/Simple Hand Drawing-Prefix.pch";
+				INFOPLIST_FILE = "Simple Hand Drawing/Simple Hand Drawing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55656C1916F960B4005838EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Hand Drawing/Simple Hand Drawing-Prefix.pch";
+				INFOPLIST_FILE = "Simple Hand Drawing/Simple Hand Drawing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55656BF316F960B4005838EF /* Build configuration list for PBXProject "Simple Hand Drawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55656C1516F960B4005838EF /* Debug */,
+				55656C1616F960B4005838EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55656C1716F960B4005838EF /* Build configuration list for PBXNativeTarget "Simple Hand Drawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55656C1816F960B4005838EF /* Debug */,
+				55656C1916F960B4005838EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55656BF016F960B4005838EF /* Project object */;
+}
